@@ -1,0 +1,161 @@
+.header {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 24px;
+}
+
+.banner {
+    display: block;
+    padding-top: 200px;
+    width: 100%;
+    background-image: url(../img/banner/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* category */
+.category__heading {
+    margin: 0;
+    padding: 12px 16px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #1372b5;
+    text-transform: uppercase;
+}
+
+.category__list {
+    margin-top: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.category__item {
+    padding: 8px 16px;
+    border: 1px solid #dbdbdb;
+    cursor: pointer;
+}
+
+.category__item a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.category__item:hover,
+.category__item:hover a {
+    color: #fff;
+    background-color: #1372b5;
+}
+
+.content__heading {
+    min-width: 300px;
+    padding: 0 8px;
+    display: block;
+    font-weight: 500;
+    font-size: 2.4rem;
+    color: #1372b5;
+    text-transform: uppercase;
+}
+
+.content__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.border {
+    width: 100%;
+    border-top: 2px solid #1372b5;
+}
+
+/* Product item */
+.product-item:hover {
+    transform: translateY(-4px);
+    cursor: pointer;
+}
+
+.product-item__img {
+    display: block;
+    width: 100%;
+    padding-top: 100%;
+    background-image: url(../img/products/26/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.product-item__name {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #333;
+}
+
+.product-item__price {
+    text-align: center;
+    font-size: 1.4rem;
+    color: rgb(231, 81, 81);
+}
+
+/* contact */
+.contact {
+    margin: 36px 0;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    border: 4px dashed #f23e1f;
+}
+
+.contact__img {
+    width: 132px;
+}
+
+.contact__heading {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.contact__number {
+    font-size: 2rem;
+    font-size: 1.6rem;
+    color: #f23e1f;
+}
+
+/* new product */
+.new-product__heading {
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: #1372b5;
+}
+
+.new-product__item {
+    display: flex;
+    text-decoration: none;
+    margin-bottom: 24px;
+}
+
+.news-product__img {
+    height: 120px;
+    margin-right: 24px;
+}
+
+.new-product__description {
+    font-size: 1.4rem;
+    color: #333;
+}
+
+.new-product__price {
+    margin-top: 16px;
+    display: block;
+    font-size: 2rem;
+    color: #000;
+}
+
+.new-product__price:hover {
+    color: #f23e1f;
+}
